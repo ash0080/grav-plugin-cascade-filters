@@ -2,8 +2,8 @@
 
 The **Cascade Filters** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Cascadefilters is a Grav plugin that generates a multiple layer filters collected throughout the site. main features includes: 
 * Selectable taxonomy types; 
-* Links have 3 states: normal, active, disable ( the plugin will loop the child items's taxomomies to check if a link will continue to work or not, in another words, the filters are associated; 
-* Generally, the plugin provides a pages selector to let you choice where to place the filters on, but it not designed for a site-wide usage.
+* Links have 3 states: normal, active, disabled ( the plugin will loops the child items's taxomomies to check if a link will continue to work or not, in another words, the filters are associated; 
+* Generally, the plugin provides a pages selector to let you choice where to place the filters on, but it not designed for a site-wide usage. However, you can fork it as you wish.
 
 ![Cascade Filters](assets/screenshot.gif)
 
@@ -71,7 +71,7 @@ In the page of collection, you can filter the child items like this:
 {% endif %}
 ```
 
-Than the rendered html should be work!
+Than the rendered html should be work! you can click and filter the child items now.
 
 ## Credits
 
