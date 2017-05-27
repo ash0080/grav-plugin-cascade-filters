@@ -1,7 +1,5 @@
 # Cascade Filters Plugin
 
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of this plugin.**
-
 The **Cascade Filters** Plugin is for [Grav CMS](http://github.com/getgrav/grav). Cascadefilters is a Grav plugin that generates a multiple layer filters collected throughout the site. main features includes: 
 * Selectable taxonomy types; 
 * Links have 3 states: normal, active, disable ( the plugin will loop the child items's taxomomies to check if a link will continue to work or not, in another words, the filters are associated; 
