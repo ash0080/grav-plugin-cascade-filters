@@ -42,7 +42,7 @@ In the template twig file where you want to place the Cascade Filters:
 ```twig
 {% import 'partials/cascade-filters.html.twig' as f %}
 <div class="sidebar column is-narrow">
-	{% set taxlist = cascadeFilters.get() %} {# get queries as Array #}
+	{% set taxlist = cascadeFilters.get() %} {# get texonomy list #}
 	{% set queries = uri.query(null, true) %} {# get queries as Array #}
 	<a href="{{ page.url }}" class="button">Clean all filters </a>
 	{% if taxlist %}
@@ -71,7 +71,7 @@ In the page of collection, you can filter the child items like this:
 {% endif %}
 ```
 
-Than the rendered html should be work! you can click and filter the child items now.
+Then the rendered html should be work! you can click and filter the child items now.
 
 ## Credits
 
